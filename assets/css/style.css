@@ -209,7 +209,7 @@ footer a {
 
   /* HEADER */
   header div img {
-    height: 70px;
+    height: 80px;
     margin-bottom: 25px;
   }
 
@@ -220,8 +220,54 @@ footer a {
 
   /* MAIN */
 
+  /* ARTICLE */
   main article h1 {
     font-size: 4.8rem;
     line-height: 1.2;
+  }
+
+  main article iframe {
+    height: 180px;
+  }
+
+  main article section h2 {
+    background-color: rgb(164, 164, 164);
+    margin-top: 13px;
+    margin-bottom: 30px;
+    padding: 4px;
+    font-size: 2.5rem;
+    text-transform: none;
+  }
+
+  main article section form fieldset {
+    margin-bottom: 15px;
+  }
+
+  main article section form fieldset input {
+    width: 200px;
+    height: 30px;
+    font-size: 1.5rem;
+  }
+
+  main article section form fieldset button {
+    width: 80px;
+    height: 28px;
+    font-size: 1.5rem;
+  }
+
+  /* ASIDE */
+  aside h2 {
+    font-size: 4rem;
+  }
+
+  /* FOOTER*/
+  footer {
+    font-size: 2.1rem;
+    line-height: 1.7;
+  }
+
+  footer p {
+    margin-bottom: 35px;
+    line-height: 2;
   }
 }

@@ -293,6 +293,14 @@ footer a {
     font-size: 1.7rem;
   }
 
+  tr td {
+    width: 200px;
+    padding: 8px;
+  }
+  tr td:first-child {
+    width: 100px;
+  }
+
   main article iframe {
     height: 150px;
   }
@@ -343,5 +351,95 @@ footer a {
 
   footer p {
     margin-bottom: 25px;
+  }
+}
+
+/* 1200px */
+@media screen and (min-width: 1200px) {
+  /* COMMON */
+  body {
+    font-size: 1.6rem;
+    line-height: 2;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  /* HEADER */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 20px;
+    font-size: 1.7rem;
+  }
+  header div {
+    display: flex;
+    align-items: center;
+  }
+
+  header p {
+    margin-bottom: 0;
+  }
+
+  header div img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  /* MAIN */
+  main article h1 {
+    font-size: 4.5rem;
+  }
+
+  main article iframe {
+    display: inline;
+    width: 50%;
+    height: 240px;
+  }
+
+  main article section {
+    display: inline-block;
+    width: 49%;
+    border-radius: 20px;
+    vertical-align: top;
+  }
+
+  tr td {
+    width: 260px;
+    padding: 8px;
+  }
+  tr td:first-child {
+    width: 150px;
+  }
+
+  main article section form fieldset input {
+    width: 300px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding-left: 15px;
+  }
+
+  main article section form fieldset button {
+    width: 100px;
+    height: 39px;
+    font-size: 1.2rem;
+  }
+  /* ASIDE */
+  aside div {
+    width: 33%;
+    display: inline-block;
+  }
+
+  /* FOOTER */
+  footer {
+    font-size: 1.7rem;
+    line-height: 2;
+  }
+  footer address {
+    padding-left: 140px;
+    padding-right: 140px;
   }
 }
